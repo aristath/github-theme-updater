@@ -4,8 +4,7 @@ The theme-review process on wordpress.org can take months...
 
 * The initial review is usually a coupe of months.
 * Then if all goes well the theme proceeds to the final review which takes 2-4 months at the time of this writing.
-* If you for some reason update your theme on WP's trac while awaiting in the final-review queue (for example upload a new version with fixes), then you lose your place in the queue and move to the last position.
-* If your theme is tagged as accessibility-ready, then you have to wait another 2-4 months.
+* If your theme is tagged as accessibility-ready, then the theme has to wait for a 3rd review.
 
 Overall a theme review can easily take more than 6 months.
 
@@ -19,15 +18,12 @@ A more robust solution would be to use the [github-updater](https://github.com/a
 1. Download the php file from this repo and include it in your theme.
 2. Change the namespace on the top of the file to match the one you use in your theme (you are using namespaces, right?).
 3. Include the updater class in your functions.php file:
-
 ```php
 add_action( 'after_setup_theme', function() {
 	get_template_part( 'inc/classes/Updater' );
 });
 ```
-
 4. At the bottom of the `Updater.php` file init the updater:
-
 ```php
 new Updater(
 	[
