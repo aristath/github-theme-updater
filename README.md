@@ -12,7 +12,7 @@ Overall a theme review can easily take more than 6 months.
 In the meantime, life goes on. If your business depends on your themes, then you may want to implement an alternative method to provide updates for your theme so people can start using it and you can start growing.
 
 This is a simple class that lets you use github releases in your repository to handle your theme updates.
-A more robust solution would be to use the [github-updater](https://github.com/afragen/github-updater) plugin, but I'm in no mood to include a 540kb library in my theme when I can do the same in less than 200 lines of code.
+A more robust solution would be to use the [github-updater](https://github.com/afragen/github-updater) plugin, but I'm in no mood to include a 540kb library in my theme when I can accomplish what I need in less than 200 lines of code.
 
 ## Implementing in the theme:
 
