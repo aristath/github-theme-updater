@@ -22,7 +22,7 @@ A more robust solution would be to use the [github-updater](https://github.com/a
 
 ```php
 add_action( 'after_setup_theme', function() {
-    get_template_part( 'inc/classes/Updater' );
+	get_template_part( 'inc/classes/Updater' );
 });
 ```
 
@@ -35,7 +35,7 @@ new Updater(
 		'repo' => 'wplemon/gridd',             // Theme repository.
 		'slug' => 'gridd',                     // Theme Slug.
 		'url'  => 'https://wplemon.com/gridd', // Theme URL.
-        'ver'  => 1.2                          // Theme Version.
+		'ver'  => 1.2                          // Theme Version.
 	]
 );
 ```
