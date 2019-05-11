@@ -1,0 +1,19 @@
+{
+  "name": "aristath/github-theme-updater",
+  "type": "library",
+  "keywords": ["WordPress", "Theme Updater", "Github"],
+  "description": "Custom updater class for WordPress themes hosted on Github",
+  "homepage": "https://aristath.github.io/github-theme-updater",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "aristath",
+      "email": "aristath@gmail.com",
+      "homepage": "https://aristath.github.io",
+      "role":"Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  }
+}
