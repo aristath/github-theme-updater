@@ -3,7 +3,7 @@
  * Gridd Theme Updater.
  *
  * @package Gridd
- * @since 1.0
+ * @since 1.1
  */
 
 namespace Gridd;
@@ -42,6 +42,15 @@ class Updater {
 	 * @var string
 	 */
 	private $slug;
+
+	/**
+	 * Theme version.
+	 *
+	 * @access private
+	 * @since 1.1
+	 * @var string
+	 */
+	private $ver;
 
 	/**
 	 * Theme URL.
